@@ -3,7 +3,7 @@ using TMPro;
 
 public class WorldInteractUI : MonoBehaviour
 {
-    public TextMeshProUGUI textUI;
+    public TMP_Text textUI;
     public GameObject root;
 
     public void Show(string message)
