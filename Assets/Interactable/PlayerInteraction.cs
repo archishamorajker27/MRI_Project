@@ -78,7 +78,9 @@ public class PlayerInteraction : MonoBehaviour
         if (Keyboard.current.eKey.wasPressedThisFrame)
         {
             currentInteractable.Interact(transform);
+            currentInteractable.OnInteract();
         }
+
     }
 
     // --------------------------------------------------

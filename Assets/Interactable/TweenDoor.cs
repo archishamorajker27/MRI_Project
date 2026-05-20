@@ -49,7 +49,10 @@ using DG.Tweening;
     // --------------------------------------------------
     // CORE LOGIC
     // --------------------------------------------------
-
+    public void OnInteract()
+    {
+       
+    }
     void ToggleDoor(Vector3 playerPos, bool openState)
     {
         if (currentTween != null &&
