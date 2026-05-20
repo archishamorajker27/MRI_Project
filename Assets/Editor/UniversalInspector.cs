@@ -1,6 +1,5 @@
-using UnityEditor;
 using UnityEngine;
-
+using UnityEditor;
 [CustomEditor(typeof(MonoBehaviour), true)]
 public class UniversalInspector : Editor
 {
@@ -28,7 +27,7 @@ public class UniversalInspector : Editor
                     Color.cyan;
 
                 GUILayout.Label(
-                    "BY: Abhijeet Patil",
+                    "Owner: Abhijeet Patil",
                     style);
 
                 GUILayout.Space(5);
